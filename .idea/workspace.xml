@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="754b1859-faa2-4fc3-9cc4-d71a843967a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TheLOngestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/tictactoe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JetBrains/stage1/project/encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JetBrains/stage1/project/encryption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JetBrains/TheLOngestWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JetBrains/TheLOngestWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheLOngestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheLOngestWord.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TheLOngestWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/tictactoe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -53,6 +63,8 @@
         <option value="$PROJECT_DIR$/src/encryptdecrypt/encryption.java" />
         <option value="$PROJECT_DIR$/src/stage1/project/encryption.java" />
         <option value="$PROJECT_DIR$/src/TheLOngestWord.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/tictactoe.java" />
       </list>
     </option>
   </component>
@@ -91,9 +103,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587581023960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587588806461" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -108,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheLOngestWord">
+  <component name="RunManager" selected="Application.tictactoe">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stage6.project.Main" />
       <module name="JetBrains" />
@@ -142,8 +155,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tictactoe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tictactoe.tictactoe" />
+      <module name="JetBrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tictactoe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tictactoe" />
         <item itemvalue="Application.TheLOngestWord" />
         <item itemvalue="Application.encryption" />
         <item itemvalue="Application.Main" />
@@ -166,12 +193,12 @@
       <workItem from="1586985602786" duration="475000" />
       <workItem from="1587239052877" duration="852000" />
       <workItem from="1587393374967" duration="5000" />
-      <workItem from="1587580014512" duration="811000" />
+      <workItem from="1587580014512" duration="3854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2143000" />
+    <option name="totallyTimeSpent" value="5186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -253,6 +280,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheLOngestWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stage1/project/encryption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -260,10 +294,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheLOngestWord.java">
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/tictactoe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>

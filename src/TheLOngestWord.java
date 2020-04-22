@@ -1,19 +1,16 @@
 import java.util.Scanner;
 
-public class TheLOngestWord {
+class TheLOngestWord {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("inter words");
-        String s = scn.nextLine();
-        String[] word = s.split( " " );
-        String rts = " ";
+        String[] str = new Scanner(System.in).nextLine().split(" ");
+        int elem = 0;
 
-        for ( int i = 0; i < word.length; i++ )
-        {
-            if ( word[i].length() > rts.length() )
-                rts = word[i];
-
+        for (int i = 1; i < str.length; ++i) {
+            if (str[i].length() > str[elem].length()) {
+                elem = i;
+            }
         }
-        System.out.println( rts );
+
+        System.out.println(str[elem]);
     }
 }
