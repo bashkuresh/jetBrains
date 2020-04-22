@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="754b1859-faa2-4fc3-9cc4-d71a843967a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stage1/project/encryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheLOngestWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JetBrains/stage1/project/encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JetBrains/stage1/project/encryption.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stage1/project/encryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TheLOngestWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -42,6 +52,7 @@
         <option value="$PROJECT_DIR$/src/encryption.java" />
         <option value="$PROJECT_DIR$/src/encryptdecrypt/encryption.java" />
         <option value="$PROJECT_DIR$/src/stage1/project/encryption.java" />
+        <option value="$PROJECT_DIR$/src/TheLOngestWord.java" />
       </list>
     </option>
   </component>
@@ -56,8 +67,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,13 +85,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587240316337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587581023960" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -97,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.encryption">
+  <component name="RunManager" selected="Application.TheLOngestWord">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stage6.project.Main" />
       <module name="JetBrains" />
@@ -107,6 +118,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheLOngestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheLOngestWord" />
+      <module name="JetBrains" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheLOngestWord" />
         <item itemvalue="Application.encryption" />
         <item itemvalue="Application.Main" />
       </list>
@@ -145,19 +164,18 @@
       <option name="presentableId" value="Default" />
       <updated>1586985601429</updated>
       <workItem from="1586985602786" duration="475000" />
-      <workItem from="1587239052877" duration="580000" />
+      <workItem from="1587239052877" duration="852000" />
+      <workItem from="1587393374967" duration="5000" />
+      <workItem from="1587580014512" duration="811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1055000" />
+    <option name="totallyTimeSpent" value="2143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="aws.explorer" side_tool="true" />
-      <window_info id="Learn" weight="0.3297568" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -165,16 +183,8 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="SQL" />
-      <window_info anchor="bottom" id="Run with Parallel Runner" />
-      <window_info anchor="bottom" id="Usages" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Debug with Parallel Runner" />
-      <window_info anchor="bottom" id="Inspector" side_tool="true" />
-      <window_info anchor="bottom" id="Dependencies Viewer" />
+      <window_info id="Learn" order="7" weight="0.3297568" />
+      <window_info id="aws.explorer" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
@@ -188,11 +198,16 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="RestServices" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="14" />
+      <window_info anchor="bottom" id="Usages" order="15" />
+      <window_info anchor="bottom" id="SQL" order="16" />
+      <window_info anchor="bottom" id="Flutter Performance" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Run with Parallel Runner" order="18" />
+      <window_info anchor="bottom" id="Debug with Parallel Runner" order="19" />
+      <window_info anchor="bottom" id="Inspector" order="20" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" order="21" />
+      <window_info anchor="bottom" id="Dependencies Viewer" order="22" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -202,6 +217,11 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
+      <window_info anchor="right" id="Key Promoter X" order="10" />
+      <window_info anchor="right" id="Flutter Inspector" order="11" />
+      <window_info anchor="right" id="Mongo Explorer" order="12" />
+      <window_info anchor="right" id="Flutter Outline" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,8 +255,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stage1/project/encryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheLOngestWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
