@@ -33,3 +33,8 @@ public class boxEquality {
     }
 }
 
+//There are two boxes on the table. The first box has a size of X1 x Y1 x Z1, and the second box has a size of X2 x Y2 x Z2. You need to determine which box can be put inside another box. You can rotate both boxes as you want.
+//
+//
+//Input contains two lines.
+//The first line contains numbers X1, Y1, Z1, the second line contains numbers X2, Y2, Z2. All numbers are integers and greater than 0.
